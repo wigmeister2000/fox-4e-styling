@@ -49,6 +49,9 @@
     font-size:0.7rem;
     font-weight:500;
 }
+.chat-message .message-header .message-metadata {
+    font-size:0.7rem;
+}
 .chat-message .message-content p{
 	margin:0;
 	padding:0.15em 0.3em 0.15em 0.3em;
