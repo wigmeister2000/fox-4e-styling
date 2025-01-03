@@ -41,13 +41,16 @@
 	color:#fff;
 	padding:3px 4px;
 	margin-top:3px;
-	text-transform:uppercase;
-	font-size:0.7rem;
+	text-transform:none;
+	font-size:0.8rem;
 }
-.chat-message .message-header :not(.flavor-text){
+.chat-message .message-header {
     text-transform:uppercase;
     font-size:0.7rem;
     font-weight:500;
+}
+.chat-message .message-header .message-metadata {
+    font-size:0.7rem;
 }
 .chat-message .message-content p{
 	margin:0;
